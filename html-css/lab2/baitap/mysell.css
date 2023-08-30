@@ -1,0 +1,54 @@
+html, body{
+    margin:0
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+body{
+    padding:0;
+    color:#fff;
+    font-weight: 400;
+    font-family:'Montserrat', sans-serif;
+
+}
+#box{
+    min-height: 100vh;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction:column;
+
+}
+.warrior{
+    width:1033px;
+    height:317px;
+    text-align: center;
+    background-image:linear-gradient(0, rgba(0,0,0,0.6), rgba(0,0,0,0.6) ),
+    url(https://images.pexels.com/photos/33109/fall-autumn-red-season.jpg?auto=compress&cs=tinysrgb&w=600);
+    background-size:cover;
+    box-sizing: border-box;
+    color:rgb(217, 213, 213);
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+}
+h1{
+    font-size:25px;
+    font-weight: 400;
+    margin-top:-20px;
+
+
+}
+h2{
+    font-size: 15px;
+    font-weight: 400;
+}
+a{
+    background-color:rgb(246, 91, 8);
+    border-radius:5px;
+    font-size:20px;
+    text-decoration: none;
+    color:rgb(217, 213, 213);
+    font-weight:400;
+    padding:10px;
+    margin-top:40px;
+}
