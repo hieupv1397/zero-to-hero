@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: o;
+    text-align: center;
+    font-family:"Montserrat";
+}
+
+hr {margin-top:-10px;
+    background-color: aqua;
+    width: 5%;
+    height: 3px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:20px;
+    
+}
+
+.menu-list {
+    display: inline-flex;
+    margin: 10px;
+}
+a{
+    font-size:15px;
+    font-weight: bold;
+}
+.menu-list a:hover{
+    color:red;
+}
+
+
+
+
+
+
+.menu-list>a {
+    text-decoration: none;
+    color: rgb(51, 49, 49);
+}
+.box{
+ padding:90px 40px;
+    background-color:rgb(147, 194, 126);
+   margin:10px;
+   font-size:30px;
+  color:white;
+    
+    
+}
+#tbody{
+display:grid;
+grid-template-columns: auto auto auto;
+justify-content: center;
+align-items: center;;
+
+}

@@ -1,0 +1,65 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.warrior {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.head1 {
+    font-size: 25px;
+    background-color: rgb(115, 141, 185);
+    padding: 10px 45px 10px 45px;
+    color: white;
+    font-weight: 50;
+}
+
+#head {
+    font-size: 45px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(65, 65, 65);
+    margin: 5px;
+    font-weight: 400;
+}
+
+.spal {
+    color: rgb(10, 147, 244);
+}
+
+h2 {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(65, 65, 65);
+
+
+}
+
+a.button {
+    display: inline-block;
+    background-color: rgb(50, 50, 50);
+    text-decoration: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    padding: 20px 45px 20px 45px;
+    font-weight: 300;
+    margin-top: 30px;
+}
+
+.all {
+    margin-left: 20px;
+}

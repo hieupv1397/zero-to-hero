@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    padding:0;
+    background-color:white;
+}
+
+    
+#clear{ 
+    width:100%;
+    min-height: 100vh;
+    display:flex;
+   align-items: center;
+   justify-content: center;
+
+}
+a{
+    text-decoration: none;
+    color:black;
+    border:2px solid black;
+    padding:5px 20px;
+    border-radius:5px;
+    font-size:20px;
+    
+}
+.box{
+    background-color:#ddd;
+    width:20%;
+    height: 403px;
+    margin-right:50px;
+  font-family: 'Montserrat';font-size:25px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  
+
+}
+.box1{
+    width:49%;
+   height: 403px;
+   box-sizing:border-box;
+   
+    
+}
+p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top:50px;
+    font-size:16px;
+}
+h1{
+    font-family:'Montserrat';
+}
+
